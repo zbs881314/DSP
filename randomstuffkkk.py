@@ -224,18 +224,6 @@ for name, model in models:
     print (msg)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 print (full_X.shape , train_X.shape , valid_X.shape , train_y.shape , valid_y.shape , test_X.shape)
 
 model = RandomForestClassifier(n_estimators=100)
